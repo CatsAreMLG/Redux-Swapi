@@ -4,6 +4,7 @@ const initialState = {
   loading: true,
   error: null
 };
+
 export const charsReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOADING:

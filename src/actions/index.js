@@ -15,6 +15,3 @@ export const fetch = _ => dispatch => {
       dispatch({ type: ERROR, payload: "Error 404: Cannot find character" });
     });
 };
-// our action creator will be a function that returns a function
-// the url to fetch characters from is `https://swapi.co/api/people/`
-// remember that now we have controll over our thunk-based action creator
