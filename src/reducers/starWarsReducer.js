@@ -1,7 +1,8 @@
-import { LOADING, SUCCESS, ERROR, LOADING } from "../actions";
+import { LOADING, SUCCESS, ERROR } from "../actions";
 const initialState = {
+  name: "JOSH",
   characters: [],
-  loading: false,
+  loading: true,
   error: null
 };
 export const charsReducer = (state = initialState, action) => {
