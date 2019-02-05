@@ -1,6 +1,5 @@
 import { LOADING, SUCCESS, ERROR } from "../actions";
 const initialState = {
-  name: "JOSH",
   characters: [],
   loading: true,
   error: null

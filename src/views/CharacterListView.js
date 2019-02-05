@@ -28,7 +28,6 @@ class CharacterListView extends React.Component {
 
 const mstp = state => {
   return {
-    name: state.charsReducer.name,
     loading: state.charsReducer.loading,
     characters: state.charsReducer.characters
   };
