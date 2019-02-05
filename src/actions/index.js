@@ -12,7 +12,7 @@ export const fetch = swapi => dispatch => {
       dispatch({ type: SUCCESS, payload: res });
     })
     .catch(err => {
-      dispatch({ type: ERROR, payload: err });
+      dispatch({ type: ERROR, payload: "Error 404: Cannot find character" });
     });
 };
 // our action creator will be a function that returns a function
